@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Travel with us</title>
+    <link rel="stylesheet" href="/css/feedback.css">
+    <link rel="icon" href="/resources/site logo final.jpg">
+    <link rel="stylesheet" href="/css/map-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Familjen+Grotesk&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <select type="dropdown" name="lang" class="lang-selector">
+                <option value="eng" selected>English</option>
+                <option value="hin">Hindi</option>
+                <option value="tamil">Tamil</option>
+                <option value="bengali">Bengali</option>
+            </select>
+            <div class="social-media">
+                <ul>
+                  <a href="https://www.facebook.com/delhitourism" target="_blank"><i class="fa-brands fa-facebook"></i></i></a>
+                  <a href="https://twitter.com/tourism_delhi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/delhitourism_official/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                  <a href="https://www.youtube.com/results?search_query=delhi+tourism" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="title">
+            <div class="title-info">
+                <img src="/resources/site logo final.jpg" class="logo">
+                <h1>Travel with us</h1>
+            </div>
+            <h4 class="slogan">Explore. Dream. Discover.</h4>
+        </div>
+        <nav>
+            <a href="index.html">Home<i class="fa-solid fa-house"></i></a>
+            <a href="index.html#abt">About<i class="fa-solid fa-circle-info"></i></a>
+            <a href="map.html">Map<i class="fa-solid fa-map"></i></a>
+            <a href="index.html#lrn">Learn<i class="fa-brands fa-leanpub"></i></a>
+            <a href="#feedback">Feedback<i class="fa-solid fa-comments"></i></a>
+        </nav>
+    </header>
+    <form id="feedback" action="/action">
+        <h2>Feedback</h2>
+        <p>At Travel with us , we are committed to providing you with the best possible experience. 
+            Your feedback is essential in helping us understand what we're doing well and where we 
+            can improve. We value your opinions, and we invite you to share your thoughts with us through 
+            our Feedback Form.<br><br>
+            Why Your Feedback is Important:
+            <ul>
+                <li style="font-size:1.3rem;">It helps us enhance the quality of our services.</li>
+                <li style="font-size:1.3rem;">It guides us in making improvements and enhancements to better meet your needs.</li>
+                <li style="font-size:1.3rem;">Your suggestions can influence the future of our products, services, and customer experience.</li>
+            </ul>
+        </p>
+        <label for="name">Name : </label><br><br>
+        <input type="text" placeholder="enter your name" id="name" required name="name" class="text">
+        <br>
+        <br>
+        <label for="email">Email : </label><br><br>
+        <input type="text" placeholder="enter your Email" id="email" required name="email" class="text">
+        <br>
+        <br>
+        <label for="no.">Mobile Number : </label><br><br>
+        <input type="text" placeholder="enter your mobile no." id="no." name="mob_no." class="text">
+        <br>
+        <br>
+        <label>Rate us :</label><br><br>
+        <input type="radio" id="1" name="mob_no.">
+        <label for="1">1</label>
+        <input type="radio" id="2" name="mob_no.">
+        <label for="2">2</label>
+        <input type="radio" id="3" name="mob_no.">
+        <label for="3">3</label>
+        <input type="radio" id="4" name="mob_no.">
+        <label for="4">4</label>
+        <input type="radio" id="5" name="mob_no.">
+        <label for="5">5</label>
+        <br>
+        <br>
+        <label for="experience">Your experience : </label>
+        <br><br>
+        <textarea name="experience" id="experience" form="feedback" placeholder="Share your experience here"></textarea>
+        <br>
+        <br>
+        <label for="improve">Where can we improve : </label>
+        <br><br>
+        <textarea name="improvement" id="improve" form="feedback" placeholder="Share improvements if any"></textarea>
+        <br>
+        <br>
+        <label for="extra">Anything else you want to share : </label>
+        <br><br>
+        <textarea name="extra" id="extra" form="feedback" placeholder="Share anything"></textarea>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
