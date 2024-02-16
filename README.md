@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Travel With Us! This website is crafted to streamline city travel in Delhi, providing users with a centralized platform for accessing various facilities. Developed using HTML, CSS, and JavaScript, the project aims to enhance the user experience, offering convenience for exploring the vibrant city.
+Welcome to Travel With Us! This website is crafted to streamline city travel in Delhi, providing users with a centralized platform for accessing various facilities. Developed using HTML, CSS, and JavaScript, the project aims to enhance the user experience, offering convenience for exploring the vibrant city.
 
 ## Features
 
