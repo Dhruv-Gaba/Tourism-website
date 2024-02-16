@@ -1,0 +1,61 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color:#ffd3b5;
+    padding-bottom:5rem;
+}
+
+h1{
+    background-color:#ffaaa6;
+    text-align:center;
+    line-height:5rem;
+    text-decoration:solid underline 2px black;
+    font-size:2.5rem;
+}
+
+p{
+    margin: 2rem;
+    font-size:1.3rem;
+}
+ul li{
+    font-size:1.3rem;
+}
+
+h2{
+    margin-left:2rem;
+}
+
+hr{
+    margin:1rem 2rem;
+    border:1px solid black;
+}
+
+.amar-jyoti{
+    display:flex;
+}
+
+.amar-jyoti img{
+    width:300px;
+    height:220px;
+    margin-right:2rem;
+}
+
+.quick-facts{
+    display:flex;
+}
+
+.points{
+    flex-grow:1;
+}
+
+.quick-facts img{
+    height:270px;
+    width:400px;
+    margin-right:2rem;
+}
+
+.table{
+    margin-right:8rem;
+}

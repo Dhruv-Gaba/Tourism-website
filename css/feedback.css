@@ -1,0 +1,139 @@
+/* {
+    background-color:#ffd3b5;
+} */
+
+*{
+    margin:0;
+}
+
+.top{
+    height:20px;
+    background-color:#ffaaa6;
+    padding:1rem 2rem 1rem 1rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.lang-selector{
+    height:2rem;
+    width:12rem;
+    border-radius:50px;
+    background-color:white;
+}
+
+.social-media{
+    margin-bottom:15px;
+}
+
+.social-media i{
+    /* z-index:5; */
+    color:black;
+    font-size:1.7rem;
+    margin-left:0.7rem;
+    margin-top:1rem;
+}
+
+.title{
+    background-color:#ffd3b5;
+    padding:1rem 0;
+}
+
+.logo{
+    border-radius:50%;
+    height:150px;
+    width:150px;
+}
+
+.title-info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:20%;
+}
+
+.title-info h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:5rem;
+    margin-left:3rem;
+}
+
+.slogan{
+    margin-left:55%;
+    font-size:1.5rem;
+}
+
+nav{
+    background-color:black;
+    height:50px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    /* flex-grow: 1; */
+}
+
+nav a{
+    height:100%;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    flex-grow:1;
+    text-decoration:none;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.5rem;
+}
+
+nav a i{
+    margin-left:1rem;
+}
+
+nav a:hover{
+    background-color:rgb(70, 68, 68);
+}
+
+form{
+    margin: 5rem 20rem;
+}
+body{
+    background-color:antiquewhite;
+}
+
+h2{
+    text-align:center;
+    font-size:3rem;
+    background-color:brown;
+    color:white;
+    margin-bottom:3rem;
+}
+
+p{
+    font-size:1.3rem;
+    margin-bottom:2rem;
+}
+
+label{
+    font-size:1.5rem;
+}
+
+.text{
+    height:35px;
+    border:none;
+    border-bottom:1px solid black;
+    width:500px;
+}
+
+textarea{
+    height:100px;
+    width:500px;
+}
+
+button{
+    margin-left:50%;
+    margin-top:3rem;
+    width:200px;
+    height:50px;
+    border-radius:30px;
+    font-size:1.5rem;
+}

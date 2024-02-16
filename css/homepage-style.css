@@ -1,0 +1,64 @@
+body{
+    background-image: url(/resources/cover\ page\ 7.png);
+    background-size:cover;
+}
+
+.punch-line{
+    margin:2rem 1rem;
+    color:white;
+    animation:slidein 4s ease-in 0s infinite alternate;
+}
+
+.slogan{
+    margin:2rem 1rem;
+    color:white;
+    animation:visible 4s ease-in 0s 1 normal;
+    margin-bottom:0;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(0%);
+      color:white;
+      background-color:transparent;
+    }
+  
+    to {
+      transform: translateX(65%);
+      color:green;
+      background-color:black;
+    }
+}
+
+@keyframes visible {
+    from{
+      opacity:0;
+    }
+  
+    to {
+      opacity:1;
+    }
+}
+
+.title h1{
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:4.5rem;
+    text-align:center;
+}
+
+.title a{
+    text-align:center;
+    position:relative;
+    left:60%;
+    top:40px;
+    width:20%;
+    height:60px;
+    font-size:2.2rem;
+    font-family: 'Parisienne', cursive;
+}
+
+.fa-arrow-right{
+  margin-left:25px;
+}
+  
